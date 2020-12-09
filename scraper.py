@@ -127,7 +127,7 @@ class Scraper:
     
     @staticmethod
     def _get_item_text_message(n):
-        message_text = f'{n["title"]}\n{n["link"]}\n{n["desc"]}\nTip: {n["type"]}\n'
+        message_text = f'{n["title"]} \n{n["link"]} \nOpis: {n["desc"]}\nTip: {n["type"]}\n'
         message_text += f'Velikost:{n["size"]}\nCena: {n["price"]}\nAgencija: {n["agency"]}\n\n'
         return message_text
     
